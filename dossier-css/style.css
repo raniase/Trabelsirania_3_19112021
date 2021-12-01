@@ -1,6 +1,9 @@
-p {
-  background-color: gray;
-  color: yellowgreen;
+@charset "UTF-8";
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
-/*# sourceMappingURL=style.css.map */
