@@ -1,0 +1,47 @@
+/*initialiser ma page loader*/
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/* initialiser le défilement horizontal*/
+@keyframes defilement-rtl {
+    0% {
+      transform:translate3d(0, 0, 0);
+      /* position initiale à droite */
+    }
+    100% {
+      transform:translate3d(-100%, 0, 0);
+      /* position finale à gauche */
+    }
+  }
+  /*la rotation*/
+  @keyframes rotate {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+  /* card new*/
+  @keyframes clignote {
+    50% {
+        opacity: 0;
+    }
+}
+/* Coloration coeur*/
+@keyframes heart {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
